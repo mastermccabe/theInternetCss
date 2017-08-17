@@ -1,0 +1,249 @@
+*{
+ margin: 0px;
+ padding-left:2px;
+}
+body{
+
+  display: inline-block;
+  width: 950px;
+}
+p {
+  display:inline-block;
+}
+p span{
+  color:rgb(50,159,179);
+}
+h1{
+  color:white;
+  font-size: 40px;
+  font-family: arial;
+  font-weight:lighter;
+  display:inline-block;
+}
+h2 {
+  display:inline-block;
+  font-size:55px;
+  font-family: arial;
+  font-weight:lighter;
+  }
+h2 span{
+  color:rgb(27,81,140);
+}
+
+h3 {
+  display:inline-block;
+  color: white;
+  font-size: 24px;
+font-family: arial;
+font-weight: lighter;
+text-align: center;
+position: relative;
+bottom: 232px;
+
+}
+
+
+h4 {
+  display:inline-block;
+  font-size:16px;
+    font-family: arial;
+}
+
+h4 span{
+  color: red;
+}
+h5{
+  color:rgb(0,179,215);
+  font-size: 32px;
+  vertical-align: top;
+  display:inline-block;
+/*  margin-top: -38px;*/
+}
+h5 span{
+  font-size:22px;
+  font-weight: lighter;
+}
+
+h6{
+  display:inline-block;
+  font-size:14px;
+    font-family: arial;
+
+}
+
+h6 span{
+  color:rgb(27,86,143);
+}
+
+img {
+  width:90px;
+  display:inline-block;
+  margin-bottom: -30px;
+}
+span{
+  color:rgb(28,81,140);
+}
+ul  {
+  display:inline-block;
+ margin: 10px; padding: 0px;
+ vertical-align: top;
+
+}
+li  {
+  list-style:top;
+
+}
+#wrapper {
+  width: 950px;
+  height: auto;
+  background: -webkit-linear-gradient(rgb(224,224,224), rgb(255,255,255),rgb(255,255,255)); /* For Safari 5.1 to 6.0 */
+}
+#header{
+  width:950px;
+  background: -webkit-linear-gradient(rgb(35,86,143), rgb(66,111,157),rgb(35,85,146)); /* For Safari 5.1 to 6.0 */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#left_pannel{
+  display: inline-block;
+  height:600px;
+  width:20%;
+
+}
+
+#main_panel{
+  display: inline-block;
+  height:600px;
+  width:200px;
+  vertical-align: top;
+
+}
+
+#left_pannel button{
+  padding:10px;
+  color:white;
+  width:95%;
+
+  border-radius:14px;
+  display:inline-block;
+  text-align:center;
+  font-size: 16px;
+}
+.button1{
+background: -webkit-linear-gradient(rgb( 82,134,183), rgb(33,85,143));
+}
+.button2{
+background:-webkit-linear-gradient(rgb(228,155,66),rgb(235,95,0));
+}
+
+#left_pannel_images{
+  text-align:center;
+  height:200px;
+}
+
+
+/*
+#left_pannel_images .button3{
+  padding:10px;
+  color:white;
+  width: 94%;
+height: 14px;
+background: -webkit-linear-gradient(rgb(98,198,216),rgb(11,179,215));
+margin-left: 10px;
+display:inline-block;
+
+    padding-top: 5px;
+
+font-size: 16px;
+
+} */
+#left_pannel img{
+  width:100%;
+  position:relative;
+  filter: drop-shadow(3px 3px 3px #222);
+  top: 0;
+  left: 0;
+}
+#left_pannel .ninja{
+  width: 45%;
+      display: inline-block;
+      top: -238px;
+
+
+}
+#main_content {
+  width:500px;
+  display:inline-block;
+  vertical-align:top;
+  padding-left:10px;
+  padding-top:15px;
+
+}
+#main_content img{
+  width:5%;
+    margin-bottom:  -8px;
+display:inline-block;
+}
+#main_content .client_server{
+  width:50%;
+  text-align:center;
+  display:inline-block;
+  padding-left: 25%;
+}
+#main_content a{
+  text-decoration: none;
+  color:rgb(28,71,140);
+  font-size: 18px;
+}
+
+#cell_phone_box{
+
+
+
+  margin-left: 428px;
+  margin-top: -29px;
+  height: 73px;
+      width: 302px;
+  padding-right: 0px;
+}
+#cell_phone_box img{
+  width:20%;
+  padding-top:10px;
+  vertical-align:middle;
+}
+/*
+#main_content .right_align_me{
+  padding-left:500px;
+}
+*/
+#phone_numbers{
+  text-align:center;
+  margin-top: -57px;
+}
+
+#phone_numbers hr{
+  margin-left: 68px;
+  margin-top: 3px;
+
+}
+#core_content{
+  display:inline-block;
+  padding-left:10px;
+  vertical-align: top;
+      width: 523px;
+}
+
+#bottom_box{
+
+  width:100%;
+  height:300px;
+  display:inline-block;
+  outline: rgb(0,110,216) solid thick;
+}
+#bottom_box img{
+  width: 25%;
+  margin-top: 10px;
+  margin-left: 10px;
+ float: left;
+}
